@@ -1,102 +1,129 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
-  "jackpot": [
-    {
-    "id" : 290315,
-    "jackpotBetType" : "JACKPOTBET",
-    "selectionCount" : 6,
-    "reserveSelectionCount" : 2,
-    "bannerUrl" : "https://i.ibb.co/9rBCpxs/FBHT-FTPIC-8.png",
-    "description" : "Half Time/Full Time Jackpot",
-    "settledYn" : false,
-    "enabledYn" : true,
-    "currencyStakeMap" : {
-      "44" : {
-        "id" : 290234,
-        "currencyId" : 44,
-        "stake" : 50,
-        "prize" : 1000000,
-        "jackpotId" : 290315
-      }
+    "posts": [
+        {
+            "id": 1,
+            "title": "Post 1"
+        },
+        {
+            "id": 2,
+            "title": "Post 2"
+        },
+        {
+            "id": 3,
+            "title": "Post 3"
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "body": "some comment",
+            "postId": 1
+        },
+        {
+            "id": 2,
+            "body": "some comment",
+            "postId": 1
+        }
+    ],
+    "profile": {
+        "name": "typicode"
     },
-    "sportCodes" : [ "FOOT" ],
-    "pureWDWMarket" : false,
-    "virtuals" : false
-   }, {
-    "id" : 290372,
-    "jackpotBetType" : "JACKPOTBET",
-    "selectionCount" : 11,
-    "reserveSelectionCount" : 2,
-    "bannerUrl" : "https://preview.ibb.co/eDAnOV/ChapChap.png",
-    "description" : "Monday ChapChap Jackpot",
-    "settledYn" : false,
-    "enabledYn" : true,
-    "currencyStakeMap" : {
-      "44" : {
-        "id" : 290291,
-        "currencyId" : 44,
-        "stake" : 50,
-        "prize" : 1500000,
-        "jackpotId" : 290372
-      }
-    },
-    "sportCodes" : [ "FOOT" ],
-    "pureWDWMarket" : true,
-    "virtuals" : false
-   }, {
-    "id" : 290644,
-    "jackpotBetType" : "JACKPOTBET",
-    "selectionCount" : 10,
-    "reserveSelectionCount" : 0,
-    "bannerUrl" : null,
-    "description" : "Virtual Football Jackpot 246219",
-    "settledYn" : false,
-    "enabledYn" : true,
-    "currencyStakeMap" : {
-      "44" : {
-        "id" : 290563,
-        "currencyId" : 44,
-        "stake" : 20,
-        "prize" : 200000,
-        "jackpotId" : 290644
-      }
-    },
-    "sportCodes" : [ "FOOT" ],
-    "pureWDWMarket" : true,
-    "virtuals" : true
-   }, {
-    "id" : 290643,
-    "jackpotBetType" : "JACKPOTBET",
-    "selectionCount" : 10,
-    "reserveSelectionCount" : 0,
-    "bannerUrl" : null,
-    "description" : "Virtual Football Jackpot 246218",
-    "settledYn" : false,
-    "enabledYn" : true,
-    "currencyStakeMap" : {
-      "44" : {
-        "id" : 290562,
-        "currencyId" : 44,
-        "stake" : 20,
-        "prize" : 200000,
-        "jackpotId" : 290643
-      }
-    },
-    "sportCodes" : [ "FOOT" ],
-    "pureWDWMarket" : true,
-    "virtuals" : true
-  } 
-  ]
-  }
+    "jackpot": [
+        {
+            "id": 290315,
+            "jackpotBetType": "JACKPOTBET",
+            "selectionCount": 6,
+            "reserveSelectionCount": 2,
+            "bannerUrl": "https://i.ibb.co/9rBCpxs/FBHT-FTPIC-8.png",
+            "description": "Half Time/Full Time Jackpot",
+            "settledYn": false,
+            "enabledYn": true,
+            "currencyStakeMap": {
+                "44": {
+                    "id": 290234,
+                    "currencyId": 44,
+                    "stake": 50,
+                    "prize": 1000000,
+                    "jackpotId": 290315
+                }
+            },
+            "sportCodes": [
+                "FOOT"
+            ],
+            "pureWDWMarket": false,
+            "virtuals": false
+        },
+        {
+            "id": 290372,
+            "jackpotBetType": "JACKPOTBET",
+            "selectionCount": 11,
+            "reserveSelectionCount": 2,
+            "bannerUrl": "https://preview.ibb.co/eDAnOV/ChapChap.png",
+            "description": "Monday ChapChap Jackpot",
+            "settledYn": false,
+            "enabledYn": true,
+            "currencyStakeMap": {
+                "44": {
+                    "id": 290291,
+                    "currencyId": 44,
+                    "stake": 50,
+                    "prize": 1500000,
+                    "jackpotId": 290372
+                }
+            },
+            "sportCodes": [
+                "FOOT"
+            ],
+            "pureWDWMarket": true,
+            "virtuals": false
+        },
+        {
+            "id": 290644,
+            "jackpotBetType": "JACKPOTBET",
+            "selectionCount": 10,
+            "reserveSelectionCount": 0,
+            "bannerUrl": null,
+            "description": "Virtual Football Jackpot 246219",
+            "settledYn": false,
+            "enabledYn": true,
+            "currencyStakeMap": {
+                "44": {
+                    "id": 290563,
+                    "currencyId": 44,
+                    "stake": 20,
+                    "prize": 200000,
+                    "jackpotId": 290644
+                }
+            },
+            "sportCodes": [
+                "FOOT"
+            ],
+            "pureWDWMarket": true,
+            "virtuals": true
+        },
+        {
+            "id": 290643,
+            "jackpotBetType": "JACKPOTBET",
+            "selectionCount": 10,
+            "reserveSelectionCount": 0,
+            "bannerUrl": null,
+            "description": "Virtual Football Jackpot 246218",
+            "settledYn": false,
+            "enabledYn": true,
+            "currencyStakeMap": {
+                "44": {
+                    "id": 290562,
+                    "currencyId": 44,
+                    "stake": 20,
+                    "prize": 200000,
+                    "jackpotId": 290643
+                }
+            },
+            "sportCodes": [
+                "FOOT"
+            ],
+            "pureWDWMarket": true,
+            "virtuals": true
+        }
+    ]
 }
