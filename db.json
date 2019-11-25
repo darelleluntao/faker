@@ -30,100 +30,88 @@
     },
     "jackpot": [
         {
-            "id": 290315,
+            "id": 21,
             "jackpotBetType": "JACKPOTBET",
             "selectionCount": 6,
-            "reserveSelectionCount": 2,
-            "bannerUrl": "https://i.ibb.co/9rBCpxs/FBHT-FTPIC-8.png",
+            "reserveSelectionCount": 0,
             "description": "Half Time/Full Time Jackpot",
-            "settledYn": false,
-            "enabledYn": true,
+            "settled": false,
+            "enabled": true,
             "currencyStakeMap": {
-                "44": {
-                    "id": 290234,
-                    "currencyId": 44,
+                "443": {
+                    "id": 1,
+                    "currencyId": 443,
                     "stake": 50,
                     "prize": 1000000,
-                    "jackpotId": 290315
+                    "jackpotBetConfigId": 21
                 }
             },
             "sportCodes": [
                 "FOOT"
-            ],
-            "pureWDWMarket": false,
-            "virtuals": false
+            ]
         },
         {
-            "id": 290372,
-            "jackpotBetType": "JACKPOTBET",
-            "selectionCount": 11,
-            "reserveSelectionCount": 2,
-            "bannerUrl": "https://preview.ibb.co/eDAnOV/ChapChap.png",
-            "description": "Monday ChapChap Jackpot",
-            "settledYn": false,
-            "enabledYn": true,
-            "currencyStakeMap": {
-                "44": {
-                    "id": 290291,
-                    "currencyId": 44,
-                    "stake": 50,
-                    "prize": 1500000,
-                    "jackpotId": 290372
-                }
-            },
-            "sportCodes": [
-                "FOOT"
-            ],
-            "pureWDWMarket": true,
-            "virtuals": false
+                "id": 22,
+                "jackpotBetType": "JACKPOTBET",
+                "selectionCount": 8,
+                "reserveSelectionCount": 0,
+                "description": "Monday ChapChap Jackpot",
+                "settled": false,
+                "enabled": true,
+                "currencyStakeMap": {
+                    "443": {
+                        "id": 1,
+                        "currencyId": 443,
+                        "stake": 100,
+                        "prize": 1500000,
+                        "jackpotBetConfigId": 22
+                    }
+                },
+                "sportCodes": [
+                    "FOOT"
+                ]
         },
         {
-            "id": 290644,
+            "id": 23,
             "jackpotBetType": "JACKPOTBET",
             "selectionCount": 10,
             "reserveSelectionCount": 0,
-            "bannerUrl": null,
-            "description": "Virtual Football Jackpot 246219",
-            "settledYn": false,
-            "enabledYn": true,
+            "description": "Wheel of Fortune",
+            "settled": false,
+            "enabled": true,
             "currencyStakeMap": {
-                "44": {
-                    "id": 290563,
-                    "currencyId": 44,
-                    "stake": 20,
-                    "prize": 200000,
-                    "jackpotId": 290644
+                "444": {
+                    "id": 1,
+                    "currencyId": 443,
+                    "stake": 200,
+                    "prize": 2000000,
+                    "jackpotBetConfigId": 23
                 }
             },
             "sportCodes": [
-                "FOOT"
-            ],
-            "pureWDWMarket": true,
-            "virtuals": true
+                "TENN"
+            ]
         },
         {
-            "id": 290643,
+            "id": 24,
             "jackpotBetType": "JACKPOTBET",
-            "selectionCount": 10,
+            "selectionCount": 2,
             "reserveSelectionCount": 0,
-            "bannerUrl": null,
-            "description": "Virtual Football Jackpot 246218",
-            "settledYn": false,
-            "enabledYn": true,
+            "description": "Sports Jackpot",
+            "settled": false,
+            "enabled": false,
             "currencyStakeMap": {
-                "44": {
-                    "id": 290562,
-                    "currencyId": 44,
-                    "stake": 20,
-                    "prize": 200000,
-                    "jackpotId": 290643
+                "445": {
+                    "id": 1,
+                    "currencyId": 443,
+                    "stake": 100,
+                    "prize": 1000000,
+                    "jackpotBetConfigId": 24
                 }
             },
             "sportCodes": [
                 "FOOT"
-            ],
-            "pureWDWMarket": true,
-            "virtuals": true
+            ]
         }
     ]
 }
