@@ -49,6 +49,71 @@
             "sportCodes": [
                 "FOOT"
             ]
+        },
+        {
+                "id": 22,
+                "jackpotBetType": "JACKPOTBET",
+                "selectionCount": 8,
+                "reserveSelectionCount": 0,
+                "description": "Monday ChapChap Jackpot",
+                "settled": false,
+                "enabled": true,
+                "currencyStakeMap": {
+                    "443": {
+                        "id": 1,
+                        "currencyId": 443,
+                        "stake": 100,
+                        "prize": 1500000,
+                        "jackpotBetConfigId": 22
+                    }
+                },
+                "sportCodes": [
+                    "FOOT"
+                ]
+        },
+        {
+            "id": 23,
+            "jackpotBetType": "JACKPOTBET",
+            "selectionCount": 10,
+            "reserveSelectionCount": 0,
+            "description": "Wheel of Fortune",
+            "settled": false,
+            "enabled": true,
+            "currencyStakeMap": {
+                "444": {
+                    "id": 1,
+                    "currencyId": 443,
+                    "stake": 200,
+                    "prize": 2000000,
+                    "jackpotBetConfigId": 23
+                }
+            },
+            "sportCodes": [
+                "TENN"
+            ]
+        },
+        {
+            "id": 24,
+            "jackpotBetType": "JACKPOTBET",
+            "selectionCount": 2,
+            "reserveSelectionCount": 0,
+            "description": "Sports Jackpot",
+            "settled": false,
+            "enabled": false,
+            "currencyStakeMap": {
+                "445": {
+                    "id": 1,
+                    "currencyId": 443,
+                    "stake": 100,
+                    "prize": 1000000,
+                    "jackpotBetConfigId": 24
+                }
+            },
+            "sportCodes": [
+                "FOOT"
+            ]
         }
     ]
 }
+
+
